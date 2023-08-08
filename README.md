@@ -42,11 +42,11 @@ Furthermore, if a user spends more than 30 seconds for login, the session will b
 
 ## Our Team Members 
 
-        Name                     Enrollment No.
+# Name                    
 
-1. Hamza Ayaz Khan                2021-310-083
-2. Mohammad Adnaan Zakee          2021-310-123
-3. Ghazali Hussain                2021-310-079
-4. Mohammad Faizullah             2021-310-125
+1. Hamza Ayaz Khan            
+2. Mohammad Adnaan Zakee         
+3. Ghazali Hussain               
+4. Mohammad Faizullah            
 
 # All Rights Reserved @ hamzaayazkhan.netlify.app/ & Team Hackathon Heroes
