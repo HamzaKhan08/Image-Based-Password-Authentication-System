@@ -49,4 +49,4 @@ Furthermore, if a user spends more than 30 seconds for login, the session will b
 3. Ghazali Hussain               
 4. Mohammad Faizullah            
 
- All Rights Reserved. hamzaayazkhan.netlify.app/ & Team Hackathon Heroes
+ All Rights Reserved. https://hamzaayazkhan.netlify.app/ & Team Hackathon Heroes
