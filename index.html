@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<!-- Team Name : Hackathon Heroes
+
+	 Members Name : Mohammad Adnaan Zakee 
+		                Hamza Ayaz Khan
+						Ghazali Hussain
+						Mohammad Faizullah
+
+
+	 Project Name : Image-Based Password Authentication 
+
+	 Technologies Used : HTML5, CSS3, JAVASCRIPT 
+
+	 ======== All Rights Reserved =========
+	-->
+
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Login Page</title>
+	<link rel="stylesheet" href="index.css">
+	<script src="https://kit.fontawesome.com/53b89dd49e.js" crossorigin="anonymous"></script>
+</head>
+ <!-- email method -->
+ <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+
+ <script type="text/javascript">
+ (function() {
+ emailjs.init("7_OcPE0gtULrby5Ao");
+ })();
+ </script>
+
+<body>
+
+	<div class="container" id="container">
+		<div class="form-container sign-up-container">
+			<form action="#">
+				<h1>Create Account</h1>
+				<div class="social-container">
+					<a href="#" class="social"><i class="fab fa-facebook-f"></i></a>
+					<a href="#" class="social"><i class="fab fa-google-plus-g"></i></a>
+					<a href="#" class="social"><i class="fab fa-linkedin-in"></i></a>
+				</div>
+				<span>or use your email for registration</span>
+				<input type="text" placeholder="Name" id="name" />
+				<input type="email" placeholder="Email" id="authentication_mail" />
+				<div class="password">
+					<div class="passimg" onclick="authentication_img(this)" id="s01"><img src="images/WhatsApp Image 2023-08-06 at 10.00.41 PM.jpeg" alt="" class="patimg"></div>
+					<div class="passimg" onclick="authentication_img(this)" id="s02"><img src="images/WhatsApp Image 2023-08-06 at 10.00.51 PM.jpeg" alt="" class="patimg"></div>
+					<div class="passimg" onclick="authentication_img(this)" id="s03"><img src="images/WhatsApp Image 2023-08-06 at 10.11.40 PM.jpeg" alt="" class="patimg"></div>
+					<div class="passimg" onclick="authentication_img(this)" id="s04"><img src="images/WhatsApp Image 2023-08-06 at 10.12.01 PM.jpeg" alt="" class="patimg"></div>
+					<div class="passimg" onclick="authentication_img(this)" id="s05"><img src="images/WhatsApp Image 2023-08-06 at 10.12.38 PM.jpeg" alt="" class="patimg"></div>
+					<div class="passimg" onclick="authentication_img(this)" id="s06"><img src="images/WhatsApp Image 2023-08-06 at 10.13.45 PM.jpeg" alt="" class="patimg"></div>
+					<div class="passimg" onclick="authentication_img(this)" id="s07"><img src="images/WhatsApp Image 2023-08-06 at 9.49.28 PM.jpeg" alt="" class="patimg"></div>
+					<div class="passimg" onclick="authentication_img(this)" id="s08"><img src="images/WhatsApp Image 2023-08-06 at 9.49.55 PM.jpeg" alt="" class="patimg"></div>
+					<div class="passimg" onclick="authentication_img(this)" id="s09"><img src="images/WhatsApp Image 2023-08-06 at 9.50.31 PM.jpeg" alt="" class="patimg"></div>
+					<div class="passimg" onclick="authentication_img(this)" id="s10"><img src="images/WhatsApp Image 2023-08-06 at 9.51.07 PM.jpeg" alt="" class="patimg"></div>
+					<div class="passimg" onclick="authentication_img(this)" id="s11"><img src="images/WhatsApp Image 2023-08-06 at 9.51.48 PM.jpeg" alt="" class="patimg"></div>
+					<div class="passimg" onclick="authentication_img(this)" id="s12"><img src="images/WhatsApp Image 2023-08-06 at 9.52.27 PM.jpeg" alt="" class="patimg"></div>
+					<div class="passimg" onclick="authentication_img(this)" id="s13"><img src="images/WhatsApp Image 2023-08-06 at 9.53.05 PM.jpeg" alt="" class="patimg"></div>
+					<div class="passimg" onclick="authentication_img(this)" id="s14"><img src="images/WhatsApp Image 2023-08-06 at 9.58.16 PM.jpeg" alt="" class="patimg"></div>
+					<div class="passimg" onclick="authentication_img(this)" id="s15"><img src="images/WhatsApp Image 2023-08-06 at 9.58.48 PM.jpeg" alt="" class="patimg"></div>
+				</div>
+				<input type="checkbox"> You agree to our terms and conditions.</input>
+				<button id="signupbtn"  onclick="signup()" value="submit">SignUp</button>
+			</form>
+		</div>
+		<div class="form-container sign-in-container">
+			<form action="#">
+				<h1>Login</h1>
+				<div class="social-container">
+					<a href="#" class="social"><i class="fab fa-facebook-f"></i></a>
+					<a href="#" class="social"><i class="fab fa-google-plus-g"></i></a>
+					<a href="#" class="social"><i class="fab fa-linkedin-in"></i></a>
+				</div>
+				<span>or use your account</span>
+				<input type="email" placeholder="Email" id="inmail"/>
+				<div class="password">
+					<div class="passimg" onclick="authentication_login_img(this)" id="s01"><img src="images/WhatsApp Image 2023-08-06 at 10.00.41 PM.jpeg" alt="" class="patimg"></div>
+					<div class="passimg" onclick="authentication_login_img(this)" id="s02"><img src="images/WhatsApp Image 2023-08-06 at 10.00.51 PM.jpeg" alt="" class="patimg"></div>
+					<div class="passimg" onclick="authentication_login_img(this)" id="s03"><img src="images/WhatsApp Image 2023-08-06 at 10.11.40 PM.jpeg" alt="" class="patimg"></div>
+					<div class="passimg" onclick="authentication_login_img(this)" id="s04"><img src="images/WhatsApp Image 2023-08-06 at 10.12.01 PM.jpeg" alt="" class="patimg"></div>
+					<div class="passimg" onclick="authentication_login_img(this)" id="s05"><img src="images/WhatsApp Image 2023-08-06 at 10.12.38 PM.jpeg" alt="" class="patimg"></div>
+					<div class="passimg" onclick="authentication_login_img(this)" id="s06"><img src="images/WhatsApp Image 2023-08-06 at 10.13.45 PM.jpeg" alt="" class="patimg"></div>
+					<div class="passimg" onclick="authentication_login_img(this)" id="s07"><img src="images/WhatsApp Image 2023-08-06 at 9.49.28 PM.jpeg" alt="" class="patimg"></div>
+					<div class="passimg" onclick="authentication_login_img(this)" id="s08"><img src="images/WhatsApp Image 2023-08-06 at 9.49.55 PM.jpeg" alt="" class="patimg"></div>
+					<div class="passimg" onclick="authentication_login_img(this)" id="s09"><img src="images/WhatsApp Image 2023-08-06 at 9.50.31 PM.jpeg" alt="" class="patimg"></div>
+					<div class="passimg" onclick="authentication_login_img(this)" id="s10"><img src="images/WhatsApp Image 2023-08-06 at 9.51.07 PM.jpeg" alt="" class="patimg"></div>
+					<div class="passimg" onclick="authentication_login_img(this)" id="s11"><img src="images/WhatsApp Image 2023-08-06 at 9.51.48 PM.jpeg" alt="" class="patimg"></div>
+					<div class="passimg" onclick="authentication_login_img(this)" id="s12"><img src="images/WhatsApp Image 2023-08-06 at 9.52.27 PM.jpeg" alt="" class="patimg"></div>
+					<div class="passimg" onclick="authentication_login_img(this)" id="s13"><img src="images/WhatsApp Image 2023-08-06 at 9.53.05 PM.jpeg" alt="" class="patimg"></div>
+					<div class="passimg" onclick="authentication_login_img(this)" id="s14"><img src="images/WhatsApp Image 2023-08-06 at 9.58.16 PM.jpeg" alt="" class="patimg"></div>
+					<div class="passimg" onclick="authentication_login_img(this)" id="s15"><img src="images/WhatsApp Image 2023-08-06 at 9.58.48 PM.jpeg" alt="" class="patimg"></div>
+				</div>
+				<a onclick="forgetPassword()">Forgot your password?</a>
+				<button onclick="signin()">Login</button>
+			</form>
+		</div>
+		<div class="overlay-container">
+			<div class="overlay">
+				<div class="overlay-panel overlay-left">
+					<h1 id="greeting"></h1>
+				     <script src="greeting.js"></script>
+					<p>Enter your personal details</p>
+					<button class="ghost" id="signIn">Login</button>
+				</div>
+				<div class="overlay-panel overlay-right">
+					<h1 id="greeting1"></h1>
+					<script src="greeting1.js"></script>
+					<p>To keep connected with us please login...</p>
+					<button class="ghost" id="signUp">Sign Up</button>
+				</div>
+			</div>
+		</div>
+	</div>
+	
+	<script src="main.js"></script>
+	
+</body>
+
+</html>

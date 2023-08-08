@@ -1,18 +1,27 @@
-# Image-Based-Password-Authentication-System
 
-<img width="1440" alt="Screenshot 2023-08-08 at 5 20 50 PM" src="https://github.com/HamzaKhan08/Image-Based-Password-Authentication-System/assets/87969486/df22adef-f31b-4ca5-b62f-67b46d44a5ae">
+# Image-Based-Password-Authentication-Prototype
 
-The above output will shown only when user enter wrong credentials.
+We the team of Four developed Image Based Password Authentication System || Hackathon Heroes
 
-<img width="1440" alt="Screenshot 2023-08-08 at 5 21 17 PM" src="https://github.com/HamzaKhan08/Image-Based-Password-Authentication-System/assets/87969486/3cb500fe-b286-4364-ad39-80ce0b765319">
+ A Image Based Password Authentication system is an authentication system that uses some combination of graphical images replacing the regular passwords. According to our research, this project is already in
+ market but not in fully implemented form, we try to introduce new authentication system that would be very easy for everyone. According to Human Psychology, Image Based Password is much remeber as compare to Alpha-Numeric Password. And even Hackers also cant trigger that particular image to leak your details. 
 
-The above image shown only when the session time out for the specific user.
 
-<img width="1440" alt="Screenshot 2023-08-08 at 5 26 55 PM" src="https://github.com/HamzaKhan08/Image-Based-Password-Authentication-System/assets/87969486/6dc5bcfd-62e1-45cc-9b12-4e9dd36e0477">
+## Technology Used 
 
-The above output will display only when, user want to reset his/her password.
+1. HTML5
+2. CSS3
+3. JAVASCRIPT
+4. EMAIL SENDING API USED ie, (emailJs.com)
 
-<img width="1440" alt="Screenshot 2023-08-08 at 5 27 01 PM" src="https://github.com/HamzaKhan08/Image-Based-Password-Authentication-System/assets/87969486/e9acca75-7be8-4195-a81a-1a984007a414">
 
-This output will display when, User make an incorrect attempt while logging in into his/her account.
+## Our Team Members 
 
+        Name                     Enrollment No.
+
+1. Hamza Ayaz Khan                2021-310-083
+2. Mohammad Adnaan Zakee          2021-310-123
+3. Ghazali Hussain                2021-310-079
+4. Mohammad Faizullah             2021-310-125
+
+## All Rights Reserved @ hamzaayazkhan.netlify.app/ & Team Hackathon Heroes
