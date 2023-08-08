@@ -4,7 +4,7 @@
 
 The above output will shown only when user enter wrong credentials.
 
-<img width="1440" alt="Screenshot 2023-08-08 at 5 20 21 PM" src="https://github.com/HamzaKhan08/Image-Based-Password-Authentication-System/assets/87969486/258e37bc-8980-4824-bd6e-f1e750f8ddce">
+<img width="1440" alt="Screenshot 2023-08-08 at 5 21 17 PM" src="https://github.com/HamzaKhan08/Image-Based-Password-Authentication-System/assets/87969486/3cb500fe-b286-4364-ad39-80ce0b765319">
 
 The above image shown only when the session time out for the specific user.
 
